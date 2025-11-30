@@ -1,0 +1,29 @@
+{
+  "objects": {
+    "cat": {
+      "name": "cat",
+      "attributes": [
+        "color: black and white",
+        "size: large",
+        "material: fur",
+        "state: sitting"
+      ]
+    },
+    "rat": {
+      "name": "rat",
+      "attributes": [
+        "color: black and white",
+        "size: small",
+        "material: fur",
+        "state: eating"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "rat",
+      "predicate": "in front of",
+      "object": "cat"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+--- SCENE GRAPH ---
+{
+"objects": {
+"dog": {
+"name": "Dog",
+"attributes": [
+"white",
+"large",
+"moving"
+]
+},
+"car": {
+"name": "Car",
+"attributes": [
+"black",
+"large",
+"stationary"
+]
+}
+},
+"relationships": [
+{
+"subject": "dog",
+"predicate": "in front of",
+"object": "car"
+}
+]
+}
+
+USER QUESTION: What is behind the dog?
+
+REASONING
+
+Identify the object named "dog". Its key is "dog".
+
+We want to know what is behind the dog.
+A relationship saying X is in front of Y implies Y is behind X.
+
+Check relationships where the subject is "dog" and predicate is "in front of".
+Found: "dog" in front of "car".
+
+Therefore, the car is behind the dog.
+
+FINAL ANSWER
+
+The car is behind the dog.

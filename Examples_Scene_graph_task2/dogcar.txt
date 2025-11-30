@@ -1,0 +1,27 @@
+{
+  "objects": {
+    "dog": {
+      "name": "Dog",
+      "attributes": [
+        "white",
+        "large",
+        "moving"
+      ]
+    },
+    "car": {
+      "name": "Car",
+      "attributes": [
+        "black",
+        "large",
+        "stationary"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "dog",
+      "predicate": "in front of",
+      "object": "car"
+    }
+  ]
+}

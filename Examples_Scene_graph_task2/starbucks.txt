@@ -1,0 +1,76 @@
+{
+  "objects": {
+    "book": {
+      "name": "book",
+      "attributes": [
+        "color: white",
+        "size: 21.05cm x 15.45cm",
+        "material: paper",
+        "state: closed"
+      ]
+    },
+    "vase": {
+      "name": "vase",
+      "attributes": [
+        "color: green",
+        "size: 12.06cm x 10.75cm",
+        "material: ceramic",
+        "state: clean"
+      ]
+    },
+    "cup": {
+      "name": "cup",
+      "attributes": [
+        "color: white",
+        "size: 5.9cm x 4.2cm",
+        "material: porcelain",
+        "state: clean"
+      ]
+    },
+    "spoon": {
+      "name": "spoon",
+      "attributes": [
+        "color: silver",
+        "size: 10.6cm x 2.8cm",
+        "material: metal",
+        "state: clean"
+      ]
+    },
+    "potted plant": {
+      "name": "potted plant",
+      "attributes": [
+        "color: green",
+        "size: 12.1cm x 10.7cm",
+        "material: ceramic",
+        "state: clean"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "book",
+      "predicate": "on",
+      "object": "table"
+    },
+    {
+      "subject": "vase",
+      "predicate": "next to",
+      "object": "book"
+    },
+    {
+      "subject": "cup",
+      "predicate": "on",
+      "object": "book"
+    },
+    {
+      "subject": "spoon",
+      "predicate": "next to",
+      "object": "vase"
+    },
+    {
+      "subject": "potted plant",
+      "predicate": "next to",
+      "object": "vase"
+    }
+  ]
+}

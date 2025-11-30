@@ -1,0 +1,20 @@
+{
+  "objects": {
+    "bird": {
+      "name": "bird",
+      "attributes": [
+        "yellow",
+        "small",
+        "metal",
+        "perched"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "bird",
+      "predicate": "inside",
+      "object": "cage"
+    }
+  ]
+}

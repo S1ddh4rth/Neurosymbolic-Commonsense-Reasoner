@@ -1,0 +1,29 @@
+{
+  "objects": {
+    "person": {
+      "name": "Person",
+      "attributes": [
+        "color: red and black",
+        "size: medium",
+        "material: cloth",
+        "state: riding"
+      ]
+    },
+    "bicycle": {
+      "name": "Bicycle",
+      "attributes": [
+        "color: blue",
+        "size: medium",
+        "material: metal",
+        "state: moving"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "person",
+      "predicate": "on",
+      "object": "bicycle"
+    }
+  ]
+}

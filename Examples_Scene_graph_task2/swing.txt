@@ -1,0 +1,19 @@
+{
+  "objects": {
+    "person": {
+      "name": "person",
+      "attributes": [
+        "blue pants",
+        "red shirt",
+        "black shoes"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "person",
+      "predicate": "on",
+      "object": "rope"
+    }
+  ]
+}

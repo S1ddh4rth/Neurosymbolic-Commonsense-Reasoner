@@ -1,0 +1,43 @@
+{
+  "objects": {
+    "coconut": {
+      "name": "coconut",
+      "attributes": [
+        "brown",
+        "large",
+        "round",
+        "solid"
+      ]
+    },
+    "orange": {
+      "name": "orange",
+      "attributes": [
+        "orange",
+        "medium",
+        "round",
+        "solid"
+      ]
+    },
+    "apple": {
+      "name": "apple",
+      "attributes": [
+        "red",
+        "medium",
+        "round",
+        "solid"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "coconut",
+      "predicate": "on",
+      "object": "orange"
+    },
+    {
+      "subject": "orange",
+      "predicate": "on",
+      "object": "apple"
+    }
+  ]
+}

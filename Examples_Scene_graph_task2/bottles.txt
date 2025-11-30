@@ -1,0 +1,43 @@
+{
+  "objects": {
+    "obj1": {
+      "name": "pink bottle",
+      "attributes": [
+        "pink",
+        "large",
+        "plastic",
+        "closed"
+      ]
+    },
+    "obj2": {
+      "name": "pink bottle",
+      "attributes": [
+        "pink",
+        "medium",
+        "plastic",
+        "closed"
+      ]
+    },
+    "obj3": {
+      "name": "pink bottle",
+      "attributes": [
+        "pink",
+        "small",
+        "plastic",
+        "closed"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "obj1",
+      "predicate": "next to",
+      "object": "obj2"
+    },
+    {
+      "subject": "obj2",
+      "predicate": "next to",
+      "object": "obj3"
+    }
+  ]
+}

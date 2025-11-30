@@ -1,0 +1,42 @@
+{
+  "objects": {
+    "backpack": {
+      "name": "backpack",
+      "attributes": [
+        "black",
+        "large",
+        "cloth",
+        "full"
+      ]
+    },
+    "person": {
+      "name": "person",
+      "attributes": [
+        "white",
+        "adult",
+        "standing"
+      ]
+    },
+    "suitcase": {
+      "name": "suitcase",
+      "attributes": [
+        "blue",
+        "large",
+        "hard",
+        "full"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "person",
+      "predicate": "carrying",
+      "object": "suitcase"
+    },
+    {
+      "subject": "person",
+      "predicate": "next to",
+      "object": "backpack"
+    }
+  ]
+}

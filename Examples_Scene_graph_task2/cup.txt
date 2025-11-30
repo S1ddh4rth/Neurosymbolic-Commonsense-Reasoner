@@ -1,0 +1,32 @@
+{
+  "objects": {
+    "chair": {
+      "name": "chair",
+      "attributes": [
+        "wooden",
+        "brown"
+      ]
+    },
+    "dining table": {
+      "name": "dining table",
+      "attributes": [
+        "wooden",
+        "brown"
+      ]
+    },
+    "cup": {
+      "name": "cup",
+      "attributes": [
+        "pink",
+        "ceramic"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "cup",
+      "predicate": "on",
+      "object": "dining table"
+    }
+  ]
+}

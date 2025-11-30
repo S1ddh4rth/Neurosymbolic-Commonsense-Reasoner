@@ -1,0 +1,20 @@
+{
+  "objects": {
+    "apple": {
+      "name": "apple",
+      "attributes": {
+        "color": "red",
+        "size": "medium",
+        "material": "fruit",
+        "state": "fresh"
+      }
+    }
+  },
+  "relationships": [
+    {
+      "subject": "apple",
+      "predicate": "on",
+      "object": "plate"
+    }
+  ]
+}

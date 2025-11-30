@@ -1,0 +1,27 @@
+{
+  "objects": {
+    "boat": {
+      "name": "boat",
+      "attributes": [
+        "white",
+        "wooden",
+        "sailboat"
+      ]
+    },
+    "bottle": {
+      "name": "bottle",
+      "attributes": [
+        "clear",
+        "glass",
+        "empty"
+      ]
+    }
+  },
+  "relationships": [
+    {
+      "subject": "boat",
+      "predicate": "inside",
+      "object": "bottle"
+    }
+  ]
+}
